@@ -8,36 +8,40 @@ Analyzing Verilog file 'E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdm
 Analyzing Verilog file 'E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\ov2640\I2C_Interface.v'
 Analyzing Verilog file 'E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\ov2640\OV2640_Controller.v'
 Analyzing Verilog file 'E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\ov2640\OV2640_Registers.v'
+Analyzing Verilog file 'E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\pattern.v'
 Analyzing Verilog file 'E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\syn_code\syn_gen.v'
 Analyzing Verilog file 'E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\testpattern.v'
 Analyzing Verilog file 'E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\video_frame_buffer\video_frame_buffer.v'
 Analyzing Verilog file 'E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\video_top.v'
-Undeclared symbol 'sys_resetn', assumed default net type 'wire'("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\video_top.v":122)
-Undeclared symbol 'key_flag', assumed default net type 'wire'("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\video_top.v":217)
-WARN  (EX3628) : Redeclaration of ANSI port 'key_flag' is not allowed("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\video_top.v":419)
-WARN  (EX3801) : Parameter 'count_ms' becomes localparam in 'key_flag' with formal parameter declaration list("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\video_top.v":403)
-WARN  (EX3801) : Parameter 'count_20ms' becomes localparam in 'key_flag' with formal parameter declaration list("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\video_top.v":405)
-WARN  (EX3801) : Parameter 'count_500ms' becomes localparam in 'key_flag' with formal parameter declaration list("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\video_top.v":406)
+Undeclared symbol 'sys_resetn', assumed default net type 'wire'("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\video_top.v":120)
+Undeclared symbol 'key_flag', assumed default net type 'wire'("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\video_top.v":226)
+WARN  (EX3628) : Redeclaration of ANSI port 'key_flag' is not allowed("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\video_top.v":428)
+WARN  (EX3801) : Parameter 'count_ms' becomes localparam in 'key_flag' with formal parameter declaration list("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\video_top.v":412)
+WARN  (EX3801) : Parameter 'count_20ms' becomes localparam in 'key_flag' with formal parameter declaration list("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\video_top.v":414)
+WARN  (EX3801) : Parameter 'count_500ms' becomes localparam in 'key_flag' with formal parameter declaration list("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\video_top.v":415)
+WARN  (EX3073) : Port 'PIX_OUT' remains unconnected for this instance("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\video_top.v":124)
 Compiling module 'video_top'("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\video_top.v":1)
+Compiling module 'pattern'("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\pattern.v":1)
+WARN  (EX3791) : Expression size 11 truncated to fit in target size 10("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\pattern.v":20)
 Compiling module 'testpattern'("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\testpattern.v":18)
-WARN  (EX3670) : Actual bit length 16 differs from formal bit length 12 for port 'I_h_total'("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\video_top.v":128)
-WARN  (EX3670) : Actual bit length 16 differs from formal bit length 12 for port 'I_h_sync'("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\video_top.v":129)
-WARN  (EX3670) : Actual bit length 16 differs from formal bit length 12 for port 'I_h_bporch'("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\video_top.v":130)
-WARN  (EX3670) : Actual bit length 16 differs from formal bit length 12 for port 'I_h_res'("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\video_top.v":131)
-WARN  (EX3670) : Actual bit length 16 differs from formal bit length 12 for port 'I_v_total'("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\video_top.v":132)
-WARN  (EX3670) : Actual bit length 16 differs from formal bit length 12 for port 'I_v_sync'("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\video_top.v":133)
-WARN  (EX3670) : Actual bit length 16 differs from formal bit length 12 for port 'I_v_bporch'("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\video_top.v":134)
-WARN  (EX3670) : Actual bit length 16 differs from formal bit length 12 for port 'I_v_res'("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\video_top.v":135)
-WARN  (EX3791) : Expression size 11 truncated to fit in target size 10("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\video_top.v":158)
-Compiling module 'Reset_Sync'("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\video_top.v":374)
+WARN  (EX3670) : Actual bit length 16 differs from formal bit length 12 for port 'I_h_total'("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\video_top.v":137)
+WARN  (EX3670) : Actual bit length 16 differs from formal bit length 12 for port 'I_h_sync'("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\video_top.v":138)
+WARN  (EX3670) : Actual bit length 16 differs from formal bit length 12 for port 'I_h_bporch'("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\video_top.v":139)
+WARN  (EX3670) : Actual bit length 16 differs from formal bit length 12 for port 'I_h_res'("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\video_top.v":140)
+WARN  (EX3670) : Actual bit length 16 differs from formal bit length 12 for port 'I_v_total'("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\video_top.v":141)
+WARN  (EX3670) : Actual bit length 16 differs from formal bit length 12 for port 'I_v_sync'("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\video_top.v":142)
+WARN  (EX3670) : Actual bit length 16 differs from formal bit length 12 for port 'I_v_bporch'("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\video_top.v":143)
+WARN  (EX3670) : Actual bit length 16 differs from formal bit length 12 for port 'I_v_res'("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\video_top.v":144)
+WARN  (EX3791) : Expression size 11 truncated to fit in target size 10("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\video_top.v":167)
+Compiling module 'Reset_Sync'("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\video_top.v":383)
 Compiling module 'OV2640_Controller'("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\ov2640\OV2640_Controller.v":1)
 Compiling module 'OV2640_Registers'("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\ov2640\OV2640_Registers.v":1)
 WARN  (EX3791) : Expression size 10 truncated to fit in target size 9("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\ov2640\OV2640_Registers.v":36)
 Compiling module 'I2C_Interface(SID=8'h60)'("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\ov2640\I2C_Interface.v":14)
 WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\ov2640\I2C_Interface.v":81)
 WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\ov2640\I2C_Interface.v":166)
-Compiling module 'key_flag'("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\video_top.v":393)
-WARN  (EX3791) : Expression size 31 truncated to fit in target size 30("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\video_top.v":425)
+Compiling module 'key_flag'("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\video_top.v":402)
+WARN  (EX3791) : Expression size 31 truncated to fit in target size 30("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\video_top.v":434)
 Compiling module 'Video_Frame_Buffer_Top'("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\video_frame_buffer\video_frame_buffer.v":3014)
 Compiling module '**'("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\video_frame_buffer\video_frame_buffer.v":3013)
 Compiling module 'GW_PLLVR'("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\gowin_pllvr\GW_PLLVR.v":8)
@@ -71,6 +75,7 @@ Running technical mapping ...
 [75%] Tech-Mapping Phase 2 completed
 [80%] Tech-Mapping Phase 3 completed
 [90%] Tech-Mapping Phase 4 completed
+WARN  (NL0002) : The module "pattern" instantiated to "pattern_video" is swept in optimizing("E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\src\video_top.v":124)
 [95%] Generate netlist file "E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\impl\gwsynthesis\camera_hdmi.vg" completed
 [100%] Generate report file "E:\datasheet\gowin\TangNano4k_examples-sipeed\camera_hdmi\impl\gwsynthesis\camera_hdmi_syn.rpt.html" completed
 GowinSynthesis finish

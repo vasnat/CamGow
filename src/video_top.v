@@ -114,6 +114,15 @@ assign  O_led[1] = ~init_calib;
 
 assign  XCLK = clk_12M;
 
+pattern pattern_video
+(
+    .clk (I_clk), //27Mhz
+    .I_rst_n (sys_resetn),
+    .PIX_IN (PIXDATA)      
+
+    //output [9:0]  PIX_OUT        
+);
+
 //===========================================================================
 //testpattern
 testpattern testpattern_inst
@@ -122,9 +131,9 @@ testpattern testpattern_inst
     .I_rst_n     (sys_resetn         ),//low active 
     //.I_mode      ({1'b0,cnt_vs[7:6]} ),//data select
     .I_mode      (3'b010 ),
-    .I_single_r  (8'd255               ),
-    .I_single_g  (8'd255             ),
-    .I_single_b  (8'd0               ),                  //800x600    //1024x768   //1280x720    
+    .I_single_r  (rgb_data[23:16]    ), //(8'd255               ),
+    .I_single_g  (rgb_data[15: 8]    ),  //(8'd255             ),
+    .I_single_b  (rgb_data[ 7: 0]    ), //(8'd0               ),                  //800x600    //1024x768   //1280x720    
     .I_h_total   (16'd1650           ),//hor total time  // 16'd1056  // 16'd1344  // 16'd1650  
     .I_h_sync    (16'd40             ),//hor sync time   // 16'd128   // 16'd136   // 16'd40    
     .I_h_bporch  (16'd220            ),//hor back porch  // 16'd88    // 16'd160   // 16'd220   

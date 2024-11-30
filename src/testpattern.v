@@ -206,7 +206,7 @@ end
 always @(posedge I_pxl_clk or negedge I_rst_n)
 begin
 	if(!I_rst_n)
-		Color_trig_num <= 12'd0;
+		Color_trig_num <= 8'd0;
 	else if (Pout_de_dn[1] == 1'b0)
 		Color_trig_num <= I_h_res[11:3]; //8ɫ��������
 	else if ((Color_trig == 1'b1) && (Pout_de_dn[1] == 1'b1))
@@ -323,7 +323,7 @@ end
 assign Single_color = {I_single_b,I_single_g,I_single_r};
 
 //============================================================
-assign Data_sel =  Color_bar;
+assign Data_sel =  Single_color;
 
 //---------------------------------------------------
 always @(posedge I_pxl_clk or negedge I_rst_n)
@@ -334,9 +334,9 @@ begin
 		Data_tmp <= Data_sel;
 end
 
-assign O_data_r = Data_tmp[ 7: 0];
-assign O_data_g = Data_tmp[15: 8];
-assign O_data_b = Data_tmp[23:16];
+assign O_data_r = I_single_r;//Data_tmp[ 7: 0];
+assign O_data_g = I_single_g;//Data_tmp[15: 8];
+assign O_data_b = I_single_b;//Data_tmp[23:16];
 
 endmodule       
               

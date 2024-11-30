@@ -27,7 +27,15 @@
   "SubInsts" : [
    {
     "InstFile" : "E:/datasheet/gowin/TangNano4k_examples-sipeed/camera_hdmi/src/video_top.v",
-    "InstLine" : 119,
+    "InstLine" : 117,
+    "InstName" : "pattern_video",
+    "ModuleFile" : "E:/datasheet/gowin/TangNano4k_examples-sipeed/camera_hdmi/src/pattern.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "pattern"
+   },
+   {
+    "InstFile" : "E:/datasheet/gowin/TangNano4k_examples-sipeed/camera_hdmi/src/video_top.v",
+    "InstLine" : 128,
     "InstName" : "testpattern_inst",
     "ModuleFile" : "E:/datasheet/gowin/TangNano4k_examples-sipeed/camera_hdmi/src/testpattern.v",
     "ModuleLine" : 18,
@@ -35,15 +43,15 @@
    },
    {
     "InstFile" : "E:/datasheet/gowin/TangNano4k_examples-sipeed/camera_hdmi/src/video_top.v",
-    "InstLine" : 165,
+    "InstLine" : 174,
     "InstName" : "u_Reset_Sync",
     "ModuleFile" : "E:/datasheet/gowin/TangNano4k_examples-sipeed/camera_hdmi/src/video_top.v",
-    "ModuleLine" : 374,
+    "ModuleLine" : 383,
     "ModuleName" : "Reset_Sync"
    },
    {
     "InstFile" : "E:/datasheet/gowin/TangNano4k_examples-sipeed/camera_hdmi/src/video_top.v",
-    "InstLine" : 172,
+    "InstLine" : 181,
     "InstName" : "u_OV2640_Controller",
     "ModuleFile" : "E:/datasheet/gowin/TangNano4k_examples-sipeed/camera_hdmi/src/ov2640/OV2640_Controller.v",
     "ModuleLine" : 1,
@@ -69,15 +77,15 @@
    },
    {
     "InstFile" : "E:/datasheet/gowin/TangNano4k_examples-sipeed/camera_hdmi/src/video_top.v",
-    "InstLine" : 213,
+    "InstLine" : 222,
     "InstName" : "key_flag_inst",
     "ModuleFile" : "E:/datasheet/gowin/TangNano4k_examples-sipeed/camera_hdmi/src/video_top.v",
-    "ModuleLine" : 393,
+    "ModuleLine" : 402,
     "ModuleName" : "key_flag"
    },
    {
     "InstFile" : "E:/datasheet/gowin/TangNano4k_examples-sipeed/camera_hdmi/src/video_top.v",
-    "InstLine" : 222,
+    "InstLine" : 231,
     "InstName" : "Video_Frame_Buffer_Top_inst",
     "ModuleFile" : "E:/datasheet/gowin/TangNano4k_examples-sipeed/camera_hdmi/src/video_frame_buffer/video_frame_buffer.v",
     "ModuleLine" : 3014,
@@ -95,7 +103,7 @@
    },
    {
     "InstFile" : "E:/datasheet/gowin/TangNano4k_examples-sipeed/camera_hdmi/src/video_top.v",
-    "InstLine" : 254,
+    "InstLine" : 263,
     "InstName" : "GW_PLLVR_inst",
     "ModuleFile" : "E:/datasheet/gowin/TangNano4k_examples-sipeed/camera_hdmi/src/gowin_pllvr/GW_PLLVR.v",
     "ModuleLine" : 8,
@@ -103,7 +111,7 @@
    },
    {
     "InstFile" : "E:/datasheet/gowin/TangNano4k_examples-sipeed/camera_hdmi/src/video_top.v",
-    "InstLine" : 261,
+    "InstLine" : 270,
     "InstName" : "HyperRAM_Memory_Interface_Top_inst",
     "ModuleFile" : "E:/datasheet/gowin/TangNano4k_examples-sipeed/camera_hdmi/src/hyperram_memory_interface/hyperram_memory_interface.v",
     "ModuleLine" : 3735,
@@ -121,7 +129,7 @@
    },
    {
     "InstFile" : "E:/datasheet/gowin/TangNano4k_examples-sipeed/camera_hdmi/src/video_top.v",
-    "InstLine" : 286,
+    "InstLine" : 295,
     "InstName" : "syn_gen_inst",
     "ModuleFile" : "E:/datasheet/gowin/TangNano4k_examples-sipeed/camera_hdmi/src/syn_code/syn_gen.v",
     "ModuleLine" : 1,
@@ -129,7 +137,7 @@
    },
    {
     "InstFile" : "E:/datasheet/gowin/TangNano4k_examples-sipeed/camera_hdmi/src/video_top.v",
-    "InstLine" : 338,
+    "InstLine" : 347,
     "InstName" : "TMDS_PLLVR_inst",
     "ModuleFile" : "E:/datasheet/gowin/TangNano4k_examples-sipeed/camera_hdmi/src/gowin_pllvr/TMDS_PLLVR.v",
     "ModuleLine" : 9,
@@ -137,7 +145,7 @@
    },
    {
     "InstFile" : "E:/datasheet/gowin/TangNano4k_examples-sipeed/camera_hdmi/src/video_top.v",
-    "InstLine" : 355,
+    "InstLine" : 364,
     "InstName" : "DVI_TX_Top_inst",
     "ModuleFile" : "E:/datasheet/gowin/TangNano4k_examples-sipeed/camera_hdmi/src/dvi_tx/dvi_tx.v",
     "ModuleLine" : 1048,

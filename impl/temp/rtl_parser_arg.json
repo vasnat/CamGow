@@ -34,6 +34,10 @@
    "Type" : "verilog"
   },
   {
+   "Path" : "E:/datasheet/gowin/TangNano4k_examples-sipeed/camera_hdmi/src/pattern.v",
+   "Type" : "verilog"
+  },
+  {
    "Path" : "E:/datasheet/gowin/TangNano4k_examples-sipeed/camera_hdmi/src/syn_code/syn_gen.v",
    "Type" : "verilog"
   },
@@ -47,10 +51,6 @@
   },
   {
    "Path" : "E:/datasheet/gowin/TangNano4k_examples-sipeed/camera_hdmi/src/video_top.v",
-   "Type" : "verilog"
-  },
-  {
-   "Path" : "E:/datasheet/gowin/TangNano4k_examples-sipeed/camera_hdmi/src/pattern.v",
    "Type" : "verilog"
   }
  ],
